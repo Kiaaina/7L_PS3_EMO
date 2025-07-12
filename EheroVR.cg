@@ -64,7 +64,7 @@ Blue=(0,0,271,271)
 Purple=(271,200,271,271)
 return 1
 
-[fxxl_1]; /*Movie/Game/Graphics*/
+[fxxl_1]; /*Halo/Graphics*/
 p0=3.6; /*cpu*/
 p1=(p0+100%); /*runnung speed*/
 p2=100%; /*Dead_AI*/
