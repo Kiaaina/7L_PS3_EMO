@@ -64,14 +64,14 @@ Blue=(0,0,271,271)
 Purple=(271,200,271,271)
 return 1
 
-[fxxl_1]; /*Halo/Graphics*/
+[fxxl_1]; /*Halograph/Graphics*/
 p0=3.6; /*cpu*/
 p1=(p0+100%); /*runnung speed*/
 p2=100%; /*Dead_AI*/
 2+(p3|9999999999,p4|7777777777,p5|5555555555,p6|3333333333,p7|1111111111)
 return 1
 
-[Fxxl_2]; /*VR*/
+[Fxxl_2]; /*VR/Graphics*/
 P0=3.6
 P1=(P0+100%)
 P2=100%
