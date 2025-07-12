@@ -1,4 +1,4 @@
-/*Marble_N°72_VR*/
+/*Marble_N°72_Venus*/
 
 [Mouse]
 Mouse_1=(([0f]>[ff])-Sensitivity)>@
@@ -71,7 +71,7 @@ p0=3.6; /*cpu*/
 p1=(p0+100%); /*runnung speed*/
 p2=100%; /*Dead_AI*/
 2+(p3|9999999999,p4|7777777777,p5|5555555555,p6|3333333333,p7|1111111111)
-return 0
+return 1
 
 [Fxxl_2]; /*VR/Graphics*/
 P0=3.6
