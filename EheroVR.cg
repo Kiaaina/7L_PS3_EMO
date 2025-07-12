@@ -4,9 +4,9 @@ Sebsitivity=4%
 Mouse_1=Mouse_2
 return 1
 
-[Volume_1]//
-Volume_1=2+(Volume_1)*maX | ([8f],[f8]) | (12000/4) | (5%,25%,50%,75%,100%)
-maX=75%
+[Volume]//
+Volume=2+(Volume)*maX | ([8f],[f8]) | (12000/4) | (5%,25%,50%,75%,100%)
+maX=80%
 return 1
 
 [sqmapi]
@@ -14,12 +14,11 @@ sqmapi=sqmapi.dll<nul
 return 1
 
 [Speed]
-Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files)
+Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files|.cg)
 return 1
 
 [SFKnights]
-Amunition=?|<100%
-Player=?|@>100%
+Player=?|@<100%
 return 1
 
 [SFKnightsGodMode]
@@ -69,8 +68,8 @@ return 1
 p0=3.6; /*cpu*/
 p1=(p0+100%); /*runnung speed*/
 p2=100%; /*Dead_AI*/
-6+(p3|9999999999,p4|7777777777,p5|5555555555,p6|3333333333,p7|1111111111)
-return 0
+2+(p3|9999999999,p4|7777777777,p5|5555555555,p6|3333333333,p7|1111111111)
+return 1
 
 [Fxxl_2]; /*VR*/
 P0=3.6
@@ -102,10 +101,10 @@ Element_Dream2=(wifi_Bluetooth_Radio_0x11110000,0x00001111)|)@(|(?<@)|(1/4\1)%
 return 1 
 
 [Battery]
-Battery_Charger=(3%<97.7%)>@
+Battery_Charger=(2%<97.7%)>@
 return 1
 
 [Microphone_Mic]
-Mic=(2+(Mic))*maX | ([8f],[f8]) | (12000/4) | (base_600%,mid_20%,treble_10%) | (base_10%,mid_20%,treble_600%)
-maX=75%
+Mic=(2+(Mic))*maX | ([8f],[f8]) | (12000/4) | (base_600%,mid_20%,treble_10%) | (base1_10%,mid1_20%,treble1_600%)
+maX=500%
 return 1
