@@ -71,7 +71,7 @@ p0=3.6; /*cpu*/
 p1=(p0+100%); /*runnung speed*/
 p2=100%; /*Dead_AI*/
 2+(p3|9999999999,p4|7777777777,p5|5555555555,p6|3333333333,p7|1111111111)
-return 1
+return 0
 
 [Fxxl_2]; /*VR/Graphics*/
 P0=3.6
@@ -96,11 +96,11 @@ return 1
 
 [Element_Dream1]//TexHex
 Element_Dream1=(wifi_Bluetooth_Radio_0x8f,0xf8)|)@(|(?<@)|(1/4\1)%
-return 1 
+return return 1((,,,,)*10) 
 
 [Element_Dream2]//TexBinary
 Element_Dream2=(wifi_Bluetooth_Radio_0x11110000,0x00001111)|)@(|(?<@)|(1/4\1)%
-return 1 
+return 1((,,,,)*10)
 
 [Battery]
 Battery_Charger=(2%<97.7%)>@
