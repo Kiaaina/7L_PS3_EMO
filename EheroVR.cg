@@ -108,5 +108,5 @@ return 1
 
 [Microphone_Mic]
 Mic=(2+(Mic))*maX|([8f],[f8])|(12000/4)|(base_600%,mid_20%,treble_10%)|(base1_10%,mid1_20%,treble1_600%)
-maX=9.7%
+maX=95%
 return 1
