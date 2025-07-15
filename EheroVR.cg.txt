@@ -18,8 +18,8 @@ Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files)
 return 1
 
 [SFKnights]
-Amunition=?|<100%
-Player=?|@>100%
+Amunition=?|100%
+Player=?|@<100%
 return 1
 
 [SFKnightsGodMode]
