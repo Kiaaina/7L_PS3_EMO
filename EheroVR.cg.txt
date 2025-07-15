@@ -93,11 +93,11 @@ Name=Eye_Ren
 Password=@>nul
 return 1
 
-[Element_Dream1]//TexHex
+[Element_Dream1];//TexHex
 Element_Dream1=(wifi_Bluetooth_Radio_0x8f,0xf8)|)@(|(?<@)|(1/4\1)%
 return 1 
 
-[Element_Dream2]//TexBinary
+[Element_Dream2];//TexBinary
 Element_Dream2=(wifi_Bluetooth_Radio_0x11110000,0x00001111)|)@(|(?<@)|(1/4\1)%
 return 1 
 
