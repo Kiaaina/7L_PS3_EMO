@@ -1,0 +1,111 @@
+[Mouse]
+Mouse_1=(([0f]>[ff])-Sensitivity)>@
+Sebsitivity=4%
+Mouse_1=Mouse_2
+return 1
+
+[Volume_1]
+Volume_1=2+(Volume_1)*maX | ([8f],[f8]) | (12000/4) | (5%,25%,50%,75%,100%)
+maX=75%
+return 1
+
+[sqmapi]
+sqmapi=sqmapi.dll<nul
+return 1
+
+[Speed]
+Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files)
+return 1
+
+[SFKnights]
+Amunition=?|100%
+Player=?|@<100%
+return 1
+
+[SFKnightsGodMode]
+Amunition=?|100%
+Player=?|100%
+return 0
+
+[SFKnightsAngelMode]
+Amunition=@|100%
+Player=@|100%
+return 0
+
+[Recoil_Gun]/*Socom_Navy_Seals*/
+m0=00000
+m1=00100
+m2=00100
+m3=00100
+m4=00000
+return 1
+
+[Recoil_Gun]/*Gangster*/
+m0=00100
+m1=00100
+m2=00100
+m3=00100
+m4=00000
+return 0
+
+[Light]
+Light=(0>1),(1>2)
+return 1
+
+[matrix]
+matrix=float 4*9(White,Black,Grey,Red,Yellow,Green,Tea,Blue,Purple)
+White=(255,255,255,271)
+Black=(0,0,0,271)
+Grey=(100,100,100,271)
+Red=(271,0,0,271)
+Yellow=(271,271,0,271)
+Ggreen=(0,271,0,271)
+Tea=(0,271,271,271)
+Blue=(0,0,271,271)
+Purple=(271,200,271,271)
+return 1
+
+[fxxl_1]; /*Hallo*/
+p0=3.6; /*cpu*/
+p1=(p0+100%); /*runnung speed*/
+p2=100%; /*Dead_AI*/
+6.5+(p3|9*7,p4|7*7,p5|5*7,p6|3*7,p7|1*7)
+return 1
+
+[Fxxl_2]; /*VR*/
+P0=3.6
+P1=(P0+100%)
+P2=100%
+2-(p3|1*7,p4|2*7,p5|5*7,p6|7*7,p7|9*7)
+return 1
+
+[Enhance3D]
+Enhance3D=((Enhance3D)-1%)+100%)*100%
+V0=(([8f],[f8])>[ff])>@
+V1=2
+V2=(V1\(V1-V0),(V1+V0)/V1)|(monitor_1),(monitor_2)
+V3=((2%-V2)+100%)\\2
+return 1
+
+[Wifi]
+Wifi=(Sattlelite_Dish_1_2_3_4_5)<(:)@(:)<99.7%
+Name=AE86
+Password=terryaki
+return 1
+
+[Element_Dream1];//TexHex
+Element_Dream1=(wifi_Bluetooth_Radio_0x8f,0xf8)|)@(|(?<@)|(1/4\1)%
+return 1 
+
+[Element_Dream2];//TexBinary
+Element_Dream2=(wifi_Bluetooth_Radio_0x11110000,0x00001111)|)@(|(?<@)|(1/4\1)%
+return 1 
+
+[Battery]
+Battery_Charger=(2.7%<97.7%)>@
+return 1
+
+[Microphone_Mic]
+Mic=(2+(Mic))*maX | ([8f],[f8]) | (12000/4) | (base_600%,mid_20%,treble_10%) | (base_10%,mid_20%,treble_600%)
+maX=50%
+return 1
