@@ -102,7 +102,7 @@ Element_Dream2=(wifi_Bluetooth_Radio_0x11110000,0x00001111)|)@(|(?<@)|(1/4\1)%
 return 1 
 
 [Battery]
-Battery_Charger=(3%<97.7%)>@
+Battery_Charger=(2.7%<97.7%)>@
 return 1
 
 [Microphone_Mic]
