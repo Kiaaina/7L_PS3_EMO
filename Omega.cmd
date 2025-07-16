@@ -6,7 +6,7 @@ color 74
 cls
 
 :top
-start https://mega.nz/folder/RKtlUDZY#br799ou9TqHjYTH2-FLn3w
+start https://mega.nz/folder/EGUh0Cpa#NKfDIZpZhtljzumhFV5Wfg
 echo Mega_By_Kia7L...
 (timeout /t 5) > nul
 exit
